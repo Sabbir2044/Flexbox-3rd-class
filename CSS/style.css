@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Delicious Handrawn', cursive;
+}
+img{
+  max-width: 100%;
+}
+.heroBanner{
+  padding: 300px;
+  background: #9ea9a5 url(../img/aot-nawpic-74.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay
+}
+.bannerContent{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.bannerContent h1{
+  font-size: 89px;
+}
+.bannerContent p{
+  font-size: 26px;
+}
+
+
+.blogSection{
+  padding: 50px 0;
+  background-color: rgb(172, 213, 213);
+}
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.colum{
+  flex-basis: 33.33%;
+  padding: 15px;
+  
+}
+.card{
+  background-color: rgb(113 172 181);
+  padding: 88px 18px;
+  border-radius: 22px;
+  box-shadow: 5px 5px 20px #301a48;
+  transition-duration: 0.4s;
+}
+.card h2{
+ font-size: 74px;
+ color: #1d1c1c;
+}
+.card p{
+  font-size: 30px;
+  color: #1d1c1c;
+  line-height: 1.5;
+  margin: 10px 0 30px;
+}
+.card a{
+    font-size: 28px;
+    background-color: #1412145c;
+    padding: 12px 19px;
+    display: inline-block;
+    color: #bce6ff;
+    text-decoration: none;
+    border-radius: 19px;
+    transition-duration: 0.4s;
+}
+
+.card:hover{
+  background-color: #2cc9baab
+}
+.card:hover h2{
+  color: #fff;
+}
+.card:hover a{
+  background-color: #fff;
+  color: #222;
+}
+.card a:hover{
+  background-color: black;
+  color: #ffffff;
+}
+
